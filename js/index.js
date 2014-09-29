@@ -10,6 +10,8 @@ $(function(){
 	ctx.fillStyle = color;
 	ctx.lineWidth = .3;
 	ctx.strokeStyle = color;
+	ctx.font = "40pt Calibri";
+        ctx.fillText("My TEXT!", 20, 20);
 	
 
 	var mousePosition = {
@@ -87,8 +89,7 @@ $(function(){
 
 			dot.create();
 		}
-		ctx.font = "40pt Calibri";
-        	ctx.fillText("My TEXT!", 20, 20);
+		
 		dot.line();
 		dot.animate();
 	}
