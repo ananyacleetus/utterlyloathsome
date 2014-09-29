@@ -97,7 +97,7 @@ $(function(){
 		ctx.font = "40pt Roboto";
 		ctx.fillText("Ananya Cleetus", canvas.width / 2, canvas.height / 2)
 		ctx.font = "20pt Roboto";
-		ctx.fillText("Roboticist. Programmer. Engineer.", canvas.width / 2, canvas.height / 2 +40)
+		ctx.fillText("Roboticist. Programmer. Engineer.", canvas.width / 2, canvas.height / 2 +70)
 		ctx.textAlign = 'center'; 
 		ctx.textBaseline = 'middle'; 
 
