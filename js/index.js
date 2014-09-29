@@ -3,13 +3,16 @@
 $(function(){
 	var canvas = document.querySelector('canvas'),
       ctx = canvas.getContext('2d'),
-      color = 'white';
+      color = 'black';
 	canvas.width = window.innerWidth;
 	canvas.height = window.innerHeight;
 	canvas.style.display = 'block';
 	ctx.fillStyle = color;
-	ctx.lineWidth = .1;
+	ctx.lineWidth = .3;
 	ctx.strokeStyle = color;
+//	ctx.font = "40pt Roboto";
+       
+	
 
 	var mousePosition = {
 		x: 30 * canvas.width / 100,
@@ -79,6 +82,7 @@ $(function(){
 	};
 
 	function createDots(){
+		
 		ctx.clearRect(0, 0, canvas.width, canvas.height);
 		for(i = 0; i < dots.nb; i++){
 			dots.array.push(new Dot());
@@ -86,9 +90,20 @@ $(function(){
 
 			dot.create();
 		}
-
+		
 		dot.line();
 		dot.animate();
+		
+		ctx.font = "40pt Roboto";
+		ctx.fillText("Ananya Cleetus", canvas.width / 2, canvas.height / 2)
+		ctx.font = "20pt Roboto";
+		ctx.fillText("Roboticist. Programmer. Engineer.", canvas.width / 2, canvas.height / 2 +55)
+		ctx.textAlign = 'center'; 
+		ctx.textBaseline = 'middle'; 
+
+		ctx.textAlign = 'center'; 
+		ctx.textBaseline = 'middle'; 
+
 	}
 
 	$('canvas').on('mousemove mouseleave', function(e){
@@ -101,5 +116,6 @@ $(function(){
 			mousePosition.y = canvas.height / 2;
 		}
 	});
-	setInterval(createDots, 1000/30);	
+	setInterval(createDots, 1000/30);
+
 });
