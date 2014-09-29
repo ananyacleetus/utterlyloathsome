@@ -93,7 +93,7 @@ $(function(){
 		
 		dot.line();
 		dot.animate();
-		ctx.fillText("My TEXT!", 20, 20)
+		ctx.fillText("Ananya Cleetus", canvas.width / 2, canvas.height / 2)
 	}
 
 	$('canvas').on('mousemove mouseleave', function(e){
