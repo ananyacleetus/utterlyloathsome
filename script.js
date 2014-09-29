@@ -1,5 +1,5 @@
 $(function(){
-	var canvas = document.getElementbyId('canvas'),
+	var canvas = document.queryselector('canvas'),
       ctx = canvas.getContext('2d'),
       color = 'white';
 	canvas.width = window.innerWidth;
