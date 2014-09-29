@@ -94,6 +94,10 @@ $(function(){
 		dot.line();
 		dot.animate();
 		ctx.fillText("Ananya Cleetus", canvas.width / 2, canvas.height / 2)
+		ctx.fillText("Roboticist. Programmer. Engineer.", canvas.width / 2, canvas.height / 2 +20)
+		ctx.textAlign = 'center'; 
+		ctx.textBaseline = 'middle'; 
+
 		ctx.textAlign = 'center'; 
 		ctx.textBaseline = 'middle'; 
 
