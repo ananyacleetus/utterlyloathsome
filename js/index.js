@@ -10,7 +10,7 @@ $(function(){
 	ctx.fillStyle = color;
 	ctx.lineWidth = .3;
 	ctx.strokeStyle = color;
-	ctx.font = "40pt Tangerine";
+	ctx.font = "40pt Roboto";
        
 	
 
