@@ -95,6 +95,7 @@ $(function(){
 		dot.animate();
 		ctx.fillText("Ananya Cleetus", canvas.width / 2, canvas.height / 2)
 		ctx.textAlign = 'center'; 
+		ctx.textBaseline = 'middle'; 
 
 	}
 
