@@ -82,6 +82,7 @@ $(function(){
 	};
 
 	function createDots(){
+		
 		ctx.clearRect(0, 0, canvas.width, canvas.height);
 		for(i = 0; i < dots.nb; i++){
 			dots.array.push(new Dot());
@@ -92,6 +93,7 @@ $(function(){
 		
 		dot.line();
 		dot.animate();
+		ctx.fillText("My TEXT!", 20, 20)
 	}
 
 	$('canvas').on('mousemove mouseleave', function(e){
@@ -105,6 +107,5 @@ $(function(){
 		}
 	});
 	setInterval(createDots, 1000/30);
-	setInterval(ctx.fillText("My TEXT!", 20, 20), 1000/30);
-	 
+
 });
