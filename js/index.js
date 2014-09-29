@@ -11,7 +11,7 @@ $(function(){
 	ctx.lineWidth = .3;
 	ctx.strokeStyle = color;
 	ctx.font = "40pt Calibri";
-        ctx.fillText("My TEXT!", 20, 20);
+       
 	
 
 	var mousePosition = {
@@ -104,5 +104,7 @@ $(function(){
 			mousePosition.y = canvas.height / 2;
 		}
 	});
-	setInterval(createDots, 1000/30);	
+	setInterval(createDots, 1000/30);
+	setInterval(ctx.fillText("My TEXT!", 20, 20), 1000/30);
+	 
 });
