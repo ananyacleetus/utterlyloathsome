@@ -10,7 +10,7 @@ $(function(){
 	ctx.fillStyle = color;
 	ctx.lineWidth = .3;
 	ctx.strokeStyle = color;
-	ctx.font = "40pt Roboto";
+//	ctx.font = "40pt Roboto";
        
 	
 
@@ -93,7 +93,10 @@ $(function(){
 		
 		dot.line();
 		dot.animate();
+		
+		ctx.font = "40pt Roboto";
 		ctx.fillText("Ananya Cleetus", canvas.width / 2, canvas.height / 2)
+		ctx.font = "20pt Roboto";
 		ctx.fillText("Roboticist. Programmer. Engineer.", canvas.width / 2, canvas.height / 2 +20)
 		ctx.textAlign = 'center'; 
 		ctx.textBaseline = 'middle'; 
