@@ -6,7 +6,7 @@ $(function(){
 	canvas.height = window.innerHeight;
 	canvas.style.display = 'block';
 	ctx.fillStyle = color;
-	ctx.lineWidth = .1;
+	ctx.lineWidth = .3;
 	ctx.strokeStyle = color;
  
 	var mousePosition = {
