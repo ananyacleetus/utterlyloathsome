@@ -59,7 +59,21 @@
   src: local('Roboto Regular'), local('Roboto-Regular'), url(http://fonts.gstatic.com/s/roboto/v13/oMMgfZMQthOryQo9n22dcuvvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
-
+section#about{
+  background-color: red;
+}
+section#portfolio{
+  background-color: green;
+}
+section#awards{
+  background-color: blue;
+}
+section#press{
+  background-color: black;
+}
+section#contact{
+  background-color: yellow;
+}
 canvas{
 	background: #8C4646;
 }
@@ -865,6 +879,8 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -3303,6 +3319,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-right: -15px;
   margin-left: -15px;
 }
+
+
 @media (min-width: 768px) {
   .container > .navbar-header,
   .container-fluid > .navbar-header,
@@ -5669,25 +5687,7 @@ button.close {
     display: none !important;
   }
 
-#about{
-  background-color: #588C7E;
-}
 
-#portfolio{
-  background-color: #F2AE72;
-}
-
-#awards{
-  background-color: #F2E394;
-}
-
-#press{
-  background-color: #D96459;
-}
-
-#contact{
-  background-color: #8C4646;
-}
 
 }
 /*# sourceMappingURL=bootstrap.css.map */
