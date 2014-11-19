@@ -60,19 +60,24 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 section#about{
-  background-color: red;
+  background-color: #588C7E;
+  min-width: 100%;
 }
 section#portfolio{
-  background-color: green;
+  background-color: #F2AE72;
+  min-width: 100%;
 }
 section#awards{
-  background-color: blue;
+  background-color: #D96459;
+  min-width: 100%;
 }
 section#press{
-  background-color: black;
+  background-color: #F2E394;
+  min-width: 100%;
 }
 section#contact{
-  background-color: yellow;
+  background-color: #8C4646;
+  min-width: 100%;
 }
 canvas{
 	background: #8C4646;
