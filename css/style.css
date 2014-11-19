@@ -886,15 +886,7 @@ pre code {
 }
 
 nav.fixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  text-align: center;
-  z-index: 9999;
-  height: 300px;
-  pointer-events: none;
-  color: #FFF;
+
 }
 
 .midnightHeader.default {
