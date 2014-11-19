@@ -899,15 +899,15 @@ nav.fixed {
 
 .midnightHeader.default {
   background: none;
-  color: #000;
+  color: #000000;
 }
 .midnightHeader.white {
-  background: #fff;
-  color: #000;
+  background: #FFF;
+  color: #000000;
 }
 .midnightHeader.blue {
   background: #0000ff;
-  color: #fff;
+  color: #FFF;
 }
 
 @media (min-width: 768px) {
