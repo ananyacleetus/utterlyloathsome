@@ -885,6 +885,29 @@ pre code {
   margin-left: auto;
 }
 
+nav.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 9999;
+  height: 300px;
+  pointer-events: none;
+}
+
+.midnightHeader.default {
+  background: none;
+  color: #000;
+}
+.midnightHeader.white {
+  background: #fff;
+  color: #000;
+}
+.midnightHeader.blue {
+  background: #0000ff;
+  color: #fff;
+}
 
 @media (min-width: 768px) {
   .container {
@@ -3451,6 +3474,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
     margin: 0;
   }
+
   .navbar-nav > li {
     float: left;
   }
