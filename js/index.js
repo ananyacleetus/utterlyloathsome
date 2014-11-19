@@ -3,7 +3,7 @@
 $(function(){
 	var canvas = document.querySelector('canvas'),
       ctx = canvas.getContext('2d'),
-      color = 'black';
+      color = 'white';
 	canvas.width = window.innerWidth;
 	canvas.height = window.innerHeight;
 	canvas.style.display = 'block';
