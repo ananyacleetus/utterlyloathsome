@@ -355,22 +355,12 @@ th {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 0591e4f4d5c40aafc60ed1dfb890b6ee84c2ebcf
 .glyphicon-copyright-mark:before {
   content: "\e194";
 }
-
-<<<<<<< HEAD
-=======
-* {
->>>>>>> 0591e4f4d5c40aafc60ed1dfb890b6ee84c2ebcf
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
+ 
+ 
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
