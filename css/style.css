@@ -598,13 +598,14 @@ ul {
   content: "\f243";
 }
 
-.anim body{
+/*.anim body{
   background: #000;
   padding-top: 10px;
-} 
+} */
 
 .anim p{
-  color: pink; 
+  color: red; 
+  background-color: black;
   font-family: "Courier";
   font-size: 20px;
   margin: 10px 0 0 10px;
@@ -619,8 +620,10 @@ ul {
 }
 
 .anim p a{
-  color: pink;
+  color: red;
   text-decoration: none;
+  background-color: black;
+
 }
 
 .anim span{
