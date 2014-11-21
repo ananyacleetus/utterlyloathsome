@@ -604,7 +604,7 @@ ul {
 } */
 
 .anim p{
-  color: red; 
+  color: pink; 
   background-color: black;
   font-family: "Courier";
   font-size: 20px;
@@ -612,7 +612,8 @@ ul {
   white-space: nowrap;
   overflow: hidden;
   width: 30em;
-  animation: type 4s steps(60, end); 
+  animation: type 4s steps(60, end)
+  text-align: center; 
 }
 
 .anim p:nth-child(2){
@@ -620,9 +621,10 @@ ul {
 }
 
 .anim p a{
-  color: red;
+  color: pink;
   text-decoration: none;
-  background-color: black;
+  background-color: black
+  text-align: center;
 
 }
 
