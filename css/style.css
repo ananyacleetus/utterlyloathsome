@@ -417,6 +417,9 @@ ul {
   }
 }
 
+#nameo:hover:before {
+  content: "//";
+}
 .navbar-fixed-top {
   position: fixed;
   right: 0;
