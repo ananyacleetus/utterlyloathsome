@@ -613,8 +613,7 @@ ul {
   overflow: hidden;
   width: 30em;
   animation: type 4s steps(60, end)
-  text-align: center; 
-}
+  align: "center";
 
 .anim p:nth-child(2){
   animation: type2 8s steps(60, end);
@@ -624,7 +623,7 @@ ul {
   color: pink;
   text-decoration: none;
   background-color: black
-  text-align: center;
+  align: "center";
 
 }
 
