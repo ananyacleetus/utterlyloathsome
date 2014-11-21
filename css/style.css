@@ -600,3 +600,27 @@ ul {
 .ion-social-twitter:before {
   content: "\f243";
 }
+
+nav.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 9999;
+  height: 300px;
+  pointer-events: none;
+}
+
+.midnightHeader.default {
+  background: none;
+  color: black;
+}
+.midnightHeader.white {
+  background: white;
+  color: black;
+}
+.midnightHeader.blue {
+  background: blue;
+  color: white;
+}
