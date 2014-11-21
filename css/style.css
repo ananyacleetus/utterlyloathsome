@@ -236,7 +236,7 @@ a:focus {
 }
 
 a:focus {
-  outline: thin dotted;
+  outline: thin dotted; 
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -417,8 +417,8 @@ ul {
   }
 }
 
-#nameo:hover:before {
-  content: "//";
+#nameo:hover:after{
+  content: "..That's me!";
 }
 .navbar-fixed-top {
   position: fixed;
