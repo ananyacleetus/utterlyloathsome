@@ -1,19 +1,31 @@
-(function ($) {
-  $(document).ready(function(){
-    
+// (function ($) {
+//   $(document).ready(function(){
 
-	$(function () {
-		$(window).scroll(function () {
-			if ($(this).scrollTop() > 50) {
-				$(".navbar").style.backgroundColor = red;
 
-			} else {
-				$(".navbar").style.backgroundColor = transparent;
-			}
-		});
+// 	$(function () {
+// 		$(window).scroll(function () {
+// 			if ($(this).scrollTop() > 50) {
+// 				$(".navbar").style.backgroundColor = red;
 
-	
-	});
+// 			} else {
+// 				$(".navbar").style.backgroundColor = transparent;
+// 			}
+// 		});
 
+
+// 	});
+
+// });
+//   }(jQuery));
+
+$(document).scroll(function() {
+    if ($(this).scrollTop() > t1) {
+        $('navbar').css({
+            "background-color": "blue"
+        });
+    } else {
+        $('navbar').css({
+            "background-color": "transparent"
+        });
+    }
 });
-  }(jQuery));
