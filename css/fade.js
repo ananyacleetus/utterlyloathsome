@@ -19,7 +19,7 @@
 //   }(jQuery));
 
 $(document).scroll(function() {
-    if ($(this).scrollTop() > 100) {
+    if ($(this).scrollTop() > 0) {
         $('navbar').css({
             "background-color": "blue"
         });
