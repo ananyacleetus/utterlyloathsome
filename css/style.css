@@ -348,6 +348,7 @@ ul {
   min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent;
+  background-color: blue;
 }
 
 @media (min-width: 768px) {
