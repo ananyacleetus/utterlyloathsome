@@ -265,6 +265,8 @@ ul {
   background-color: black;
   color: green;
   float: none;
+  display: inline;
+
 }
 
 @media (min-width: 768px) {
