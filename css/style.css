@@ -264,7 +264,7 @@ ul {
 .element{
   background-color: black;
   color: green;
-  float: none;
+text-align: center;
   display: inline;
 
 }
