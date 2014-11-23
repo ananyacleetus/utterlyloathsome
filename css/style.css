@@ -640,13 +640,15 @@ nav.fixed {
 
 .midnightHeader.default {
   background: none;
-  color: black;
+  color: transparent;
 }
 .midnightHeader.white {
-  background: white;
+  background: none;
   color: black;
+  font-size: 20px;
 }
 .midnightHeader.blue {
-  background: blue;
+  background: none;
   color: white;
+  font-size: 10px;
 }
