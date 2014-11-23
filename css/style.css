@@ -262,10 +262,10 @@ ul {
 }
 
 .element{
-  background-color: black;
-  color: green;
+background-color: black;
+color: green;
 text-align: center;
-  display: inline;
+display: inline;
 
 }
 
@@ -619,6 +619,8 @@ nav.fixed {
 }
 .typed-cursor{
     opacity: 1;
+    background-color: black;
+    color: green;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
