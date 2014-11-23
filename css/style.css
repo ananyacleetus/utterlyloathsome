@@ -621,6 +621,7 @@ nav.fixed {
     opacity: 1;
     background-color: black;
     color: green;
+    font-size: 14px;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
