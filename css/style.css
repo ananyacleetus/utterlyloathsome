@@ -107,7 +107,7 @@ canvas {
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; 
 }
 
 body {
@@ -264,6 +264,7 @@ ul {
 .element{
   background-color: black;
   color: green;
+  float: none;
 }
 
 @media (min-width: 768px) {
