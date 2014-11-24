@@ -422,6 +422,12 @@ display: inline;
   }
 }
 
+#nameo{
+  padding-left: 25px;
+
+
+}
+
 #nameo:hover:after{
   content: "..That's me!";
 }
