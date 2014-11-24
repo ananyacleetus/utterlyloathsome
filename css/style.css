@@ -428,9 +428,6 @@ display: inline;
 
 }
 
-#nameo:hover:after{
-  content: "..That's me!";
-}
 .navbar-fixed-top {
   position: fixed;
   right: 0;
