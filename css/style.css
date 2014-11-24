@@ -422,11 +422,6 @@ display: inline;
   }
 }
 
-#nameo{
-left: 40px;
-
-
-}
 
 .navbar-fixed-top {
   position: fixed;
@@ -647,10 +642,14 @@ nav.fixed {
 }
 .midnightHeader.about {
   background: none;
-  color: transparent;
+  color: white;
+  font-size: 20px;
+  left:40px;
+
 }
 .midnightHeader.blue {
   background: none;
   color: blue;
   font-size: 20px;
+  left:40px;
 }
