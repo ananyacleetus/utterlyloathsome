@@ -652,5 +652,17 @@ padding-left: 40px;
   font-size: 20px;
 padding-left: 40px;
 
-\
-][[po xzA]]}
+}
+
+.box{
+    display: none;
+    width: 100%;
+}
+
+a:hover + .box,.box:hover{
+    display: block;
+    position: relative;
+    z-index: 100;
+    color: black; 
+  
+}
