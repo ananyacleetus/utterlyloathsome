@@ -93,6 +93,20 @@ section#awards {
 section#press {
   background-color: #F2E394;
   min-width: 100%;
+
+
+  .box{
+    display: none;
+    width: 100%;
+}
+
+a:hover + .box,.box:hover{
+    display: block;
+    position: relative;
+    z-index: 100;
+    color: black; 
+  
+}
 }
 
 section#contact {
@@ -654,15 +668,4 @@ padding-left: 40px;
 
 }
 
-.box{
-    display: none;
-    width: 100%;
-}
 
-a:hover + .box,.box:hover{
-    display: block;
-    position: relative;
-    z-index: 100;
-    color: black; 
-  
-}
